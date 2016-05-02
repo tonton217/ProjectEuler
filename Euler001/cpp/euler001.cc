@@ -1,5 +1,10 @@
 #include <iostream>
 
+/*
+ * 1. 3 + 6 + 9 + ... = 3 * (1 + 2 + 3 + ...)
+ * 2. 1 + 2 + 3 + .. + (n - 1) + n = (n * (n + 1)) / 2;
+ */
+
 using namespace std;
 
 uint64_t sum_of_1_to_n(uint64_t n) {
